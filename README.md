@@ -29,6 +29,8 @@ Operational artifacts for the same **US flight / call** vertical (negatives, FAQ
 | `docs/google-ads/google-ads-marketcall-call-tracking-plan.md` | WEA-192 |
 | `docs/qa/us-flight-call-qa-monitoring.md` | WEA-193 |
 | `docs/google-ads/us-flight-call-ad-extensions-copy.md` | WEA-194 |
+| `docs/google-ads/us-flight-call-landing-page-structure.md` | WEA-196 |
+| `docs/google-ads/us-flight-call-hero-ab-variants.md` | WEA-197 |
 
 ## Publish
 
