@@ -16,6 +16,19 @@ Affiliate-offer snapshot, benchmark notes, and a small script to refresh exports
 | `docs/marketcall_offers_benchmark_2026-05-15.md` | Analysis / Google Ads–aligned framing |
 | `scripts/marketcall_fetch_offers.py` | Paginated JSON export; needs env `MC_KEY` (see script header) |
 
+## Google Ads — planning docs (WEA-189–WEA-194)
+
+Operational artifacts for the same **US flight / call** vertical (negatives, FAQ, go-live checklist, tracking, QA, extensions). Versioned next to the landing:
+
+| Path | Linear |
+|------|--------|
+| `docs/google-ads/us-flight-call-negative-keywords.csv` | WEA-189 |
+| `docs/google-ads/us-flight-call-landing-faq.md` | WEA-190 |
+| `docs/checklists/google-ads-landing-campaign-go-live.md` | WEA-191 |
+| `docs/google-ads/google-ads-marketcall-call-tracking-plan.md` | WEA-192 |
+| `docs/qa/us-flight-call-qa-monitoring.md` | WEA-193 |
+| `docs/google-ads/us-flight-call-ad-extensions-copy.md` | WEA-194 |
+
 ## Publish
 
 1. Edit `index.html` and replace every `REPLACE_*` placeholder and the example phone `+15551234567` in **all** places: visible text, `href="tel:…"`, and JSON-LD `telephone`.
