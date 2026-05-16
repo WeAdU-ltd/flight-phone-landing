@@ -14,6 +14,7 @@ Affiliate-offer snapshot, benchmark notes, and a small script to refresh exports
 |------|------|
 | `docs/marketcall_offers_active_snapshot_2026-05-15.csv` | CSV snapshot (`GET /api/v1/affiliate/offers`) |
 | `docs/marketcall_offers_benchmark_2026-05-15.md` | Analysis / Google Ads–aligned framing |
+| `docs/google-ads/us-flight-call-how-it-works-copy.md` | How-it-works LP copy block for A/B test variants |
 | `scripts/marketcall_fetch_offers.py` | Paginated JSON export; needs env `MC_KEY` (see script header) |
 
 ## Google Ads — planning docs (WEA-189–WEA-194)
