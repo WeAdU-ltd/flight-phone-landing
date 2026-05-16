@@ -6,6 +6,16 @@ Small **static** mobile-first landing for **Google Ads** call campaigns in the *
 
 It is **not** a Git submodule of `WeAdU-ltd/.github`. Keeping the site in its own repo makes **Netlify**, **Cloudflare Pages**, or similar hosts straightforward (one root, one `index.html`, isolated lifecycle).
 
+## Marketcall research (optional)
+
+Affiliate-offer snapshot, benchmark notes, and a small script to refresh exports from the Marketcall API live in this repo (they are **not** required to deploy the static landing):
+
+| Path | Role |
+|------|------|
+| `docs/marketcall_offers_active_snapshot_2026-05-15.csv` | CSV snapshot (`GET /api/v1/affiliate/offers`) |
+| `docs/marketcall_offers_benchmark_2026-05-15.md` | Analysis / Google Ads–aligned framing |
+| `scripts/marketcall_fetch_offers.py` | Paginated JSON export; needs env `MC_KEY` (see script header) |
+
 ## Publish
 
 1. Edit `index.html` and replace every `REPLACE_*` placeholder and the example phone `+15551234567` in **all** places: visible text, `href="tel:…"`, and JSON-LD `telephone`.
