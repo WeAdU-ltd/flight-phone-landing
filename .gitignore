@@ -1,0 +1,2 @@
+# Local Marketcall API dumps (do not commit keys or large JSON exports)
+marketcall_offers_all*.json
